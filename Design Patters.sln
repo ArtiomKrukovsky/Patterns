@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31829.152
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{152A78EF-5521-484D-BDE4-C51A6C31FDE1}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{04218176-0605-4FD6-8960-5D38648688E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{EEBE370F-7AF4-4117-996B-E0FE9A7FCBCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{EEBE370F-7AF4-4117-996B-E0FE9A7FCBCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{57F8EC1C-988C-486A-B031-745C0790DCA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{EEBE370F-7AF4-4117-996B-E0FE9A7FCBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEBE370F-7AF4-4117-996B-E0FE9A7FCBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEBE370F-7AF4-4117-996B-E0FE9A7FCBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F8EC1C-988C-486A-B031-745C0790DCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F8EC1C-988C-486A-B031-745C0790DCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F8EC1C-988C-486A-B031-745C0790DCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F8EC1C-988C-486A-B031-745C0790DCA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
